@@ -5,7 +5,7 @@ export default {
         'section1.text': 'La combinación del hardware de confianza de Lenovo con la solución de <bold>Microsoft Azure</bold> una infraestructura hiperconvergente líder en el mercado.\n\nPara las empresas que manejan un alto volumen de datos y desean más rendimiento y eficiencia sin aumentar el presupuesto',
         'section1.form.title': '<bold>Modernice su infraestructura de TI</bold>.\nComplete sus datos y contáctenos.',
         'section2.text': 'Cuando se trata de servidor, Lenovo es el <blue>número 1</blue> del mundo en rendimiento¹ y la<blue>marca más confiable</blue>² en el mercado durante los últimos 7 años.',
-        'section2.subtext': 'Fuente: Top500.org de junho/2020.\Fuente: lenovopress.com/lp1117-itic-reliability-study',
+        'section2.subtext': 'Fuente: Top500.org de junho/2020.\nFuente: lenovopress.com/lp1117-itic-reliability-study',
         'section3.mini.title': 'Lenovo ThinkAgile MX™',
         'section3.title': 'Una solución. Varias posibilidades.',
         'section3.first': '<bold>Lenovo ThinkAgile MX™</bold> abarca hardware, software y servicios, con software preinstalado listo para su uso.',
