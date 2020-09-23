@@ -31,7 +31,7 @@ export const Section = styled.div`
 `
 
 export const Container = styled.div` 
-    width: ${({ width }) => `${width ? width : '70%'}!important`};
+    width: ${({ width }) => `${width ? width : '80%'}!important`};
     margin-bottom: ${({ marginBottom }) => `${marginBottom ? '280px' : '0'}`};
     align-items: ${({ alignItems }) => `${alignItems ? alignItems : 'center'}`};
     justify-content: ${({ justifyContent }) => `${justifyContent ? justifyContent : 'center'}`};

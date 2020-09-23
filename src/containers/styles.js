@@ -17,12 +17,17 @@ export const ThankYouSection = styled.div`
     justify-content: center;
     align-items: center;
     & div {
-        width: 70%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
     }
+`
+
+export const ThankYouSectionWrapper = styled.div`
+    width: 100%;
+    overflow: hidden;
 `
 
 

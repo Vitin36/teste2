@@ -33,7 +33,7 @@ export const ButtonSection = styled.div`
 
 export const Container = styled.div`
     ${({ marginTop }) => marginTop ? `margin-top: ${marginTop}px;` : ''}
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;

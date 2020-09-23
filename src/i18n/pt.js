@@ -3,7 +3,7 @@ export default {
         'section1.title': 'Lenovo ThinkAgile MX™',
         'section1.subtitle': 'Dê um novo propósito aos dados.',
         'section1.text': 'A combinação do hardware confiável Lenovo com a solução <bold>Microsoft Azure</bold> Stack HCI para uma infraestrutura hiperconvergente líder de mercado.\n\nPara empresas que lidam com alto volume de dados e querem mais desempenho e eficiência, sem aumentar o orçamento.',
-        'section1.form.title': '<bold>Modernize a sua infraestrutura de ti</bold>.\nPreencha seus dados e solicite uma cotação.',
+        'section1.form.title': '<bold>Modernize a sua infraestrutura de ti</bold>.\nPreencha seus dados e fale conosco.',
         'section2.text': 'Quando falamos de servidor, a Lenovo é <blue>número 1</blue> do mundo em desempenho¹ e <blue>a marca mais confiável</blue>² do mercado dos últimos 7 anos.',
         'section2.subtext': '¹Fonte: Top500.org de junho/2020.\n²Fonte: lenovopress.com/lp1117-itic-reliability-study',
         'section3.mini.title': 'Lenovo ThinkAgile MX™',

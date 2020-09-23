@@ -10,7 +10,7 @@ export const Section = styled.div `
     background-image: url(${background});
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 6em 2em;
+    padding: 2em;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -21,7 +21,7 @@ export const Section = styled.div `
 `
 
 export const Container = styled.div `
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-self: center;
@@ -112,7 +112,7 @@ export const Card = styled.div `
 
     & > form {
         width: auto!important;
-        padding: 4em!important;
+        padding: 3em 4em!important;
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -28,7 +28,7 @@ export const Section = styled.div`
 `
 
 export const Container = styled.div` 
-    width: ${({ width }) => `${width ? width : '70%'}`};
+    width: ${({ width }) => `${width ? width : '80%'}`};
     display: flex;
     flex-direction: column;
     align-items: flex-start;
