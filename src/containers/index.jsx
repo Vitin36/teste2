@@ -91,9 +91,6 @@ function App() {
                         </Container>
                     )
                 }
-
-                <script src="//app-ab27.marketo.com/js/forms2/js/forms2.min.js"></script>
-                <script>MktoForms2.loadForm("//app-ab27.marketo.com", "183-WCT-620", 2583);</script>
             </FormContext.Provider>
         </ModalContext.Provider>
     )
