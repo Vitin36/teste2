@@ -1,23 +1,22 @@
 import React, { useState } from 'react'
 import { useIntl, FormattedMessage } from 'react-intl'
 import { Hexagonos, PredioHexagonos, Container, Modal, StyledHeader, ThankYouSection, HexagonosThankYou, TitleThankYou, SubTitleThankYou, TextThankYou } from './styles'
-import Button from './../components/button'
-import Section1 from './section1'
-import Section2 from './section2'
-import Section3 from './section3'
-import Section4 from './section4'
-import Section5 from './section5'
-import Section6 from './section6'
-import Section7 from './section7'
-import Section8 from './section8'
+import Button from 'components/button'
+import Section1 from 'containers/section1'
+import Section2 from 'containers/section2'
+import Section3 from 'containers/section3'
+import Section4 from 'containers/section4'
+import Section5 from 'containers/section5'
+import Section6 from 'containers/section6'
+import Section7 from 'containers/section7'
+import Section8 from 'containers/section8'
 import 'react-pure-modal/dist/react-pure-modal.min.css'
-import './../assets/style.css'
+import 'assets/style.css'
 
-import hexagonos from './../assets/images/hexagonos.svg'
-import predioHexagonos from './../assets/images/predio-hexagonos.svg'
+import hexagonos from 'assets/images/hexagonos.svg'
+import predioHexagonos from 'assets/images/predio-hexagonos.svg'
 
 import { ModalContext, FormContext } from './context'
-
 
 
 function App() {
@@ -31,7 +30,7 @@ function App() {
 
     if (!sended) {
         const interval = setInterval(() => {
-            const form = document.getElementById("mktoForm_2583")
+            const form = document.getElementById("mktoForm_2828")
             if (!formContext && form) {
                 setFormContext(form)
                 clearInterval(interval)
@@ -77,12 +76,13 @@ function App() {
                             <Section7 />
                             <Section8 />
                             <Hexagonos src={hexagonos} alt="hexagonos" draggable="false" />
-                            <Button text={intl.formatMessage({ id: 'button.cotacao' })} fixed />
+                            <Button text={intl.formatMessage({ id: 'button.send' })} fixed />
                             <Modal isOpen={context} onClose={toggleModal} portal={true} >
                                 <div id="modal"></div>
                             </Modal>
                             <div style={{ display: 'none', visibility: 'hidden' }}>
-                                <form id="mktoForm_2583" >
+                                <form id="mktoForm_2828" >
+                                    {/* <form id="mktoForm_2828" > */}
                                     <StyledHeader>
                                         <FormattedMessage id="section1.form.title" values={{ bold: chunks => <strong>{chunks}</strong> }} />
                                     </StyledHeader>
@@ -91,6 +91,7 @@ function App() {
                         </Container>
                     )
                 }
+
             </FormContext.Provider>
         </ModalContext.Provider>
     )

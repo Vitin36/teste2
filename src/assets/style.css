@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: gothamBold;
     src: url("./fonts/gotham/GothamBold.ttf") format("truetype");
 }
@@ -9,13 +9,53 @@
 }
 
 @font-face {
-    font-family: gothamMedium;
-    src: url("./fonts/gotham/GothamMedium.ttf") format("truetype");
+    font-family: gothamBook;
+    src: url("./fonts/gotham/GothamBook.ttf") format("truetype");
 }
 
 @font-face {
     font-family: gothamLight;
     src: url("./fonts/gotham/GothamLight.ttf") format("truetype");
+} */
+
+@font-face {
+    font-family: gothamBold;
+    src: url("./fonts/gotham/bold/Gotham-Bold.eot"); /* IE9*/
+    src: url("./fonts/gotham/bold/Gotham-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/gotham/bold/Gotham-Bold.woff2") format("woff2"), /* chrome、firefox */
+    url("./fonts/gotham/bold/Gotham-Bold.woff") format("woff"), /* chrome、firefox */
+    url("./fonts/gotham/bold/Gotham-Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("./fonts/gotham/bold/Gotham-Bold.svg#Gotham Bold") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: gothamBook;
+    src: url("./fonts/gotham/book/Gotham-Book.eot"); /* IE9*/
+    src: url("./fonts/gotham/book/Gotham-Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/gotham/book/Gotham-Book.woff2") format("woff2"), /* chrome、firefox */
+    url("./fonts/gotham/book/Gotham-Book.woff") format("woff"), /* chrome、firefox */
+    url("./fonts/gotham/book/Gotham-Book.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("./fonts/gotham/book/Gotham-Book.svg#Gotham Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: gothamLight;
+    src: url("fonts/gotham/light/Gotham-Light.eot"); /* IE9*/
+    src: url("fonts/gotham/light/Gotham-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/gotham/light/Gotham-Light.woff2") format("woff2"), /* chrome、firefox */
+    url("fonts/gotham/light/Gotham-Light.woff") format("woff"), /* chrome、firefox */
+    url("fonts/gotham/light/Gotham-Light.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("fonts/gotham/light/Gotham-Light.svg#Gotham Light") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: gothamMedium;
+    src: url("fonts/gotham/medium/Gotham-Medium.eot"); /* IE9*/
+    src: url("fonts/gotham/medium/Gotham-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/gotham/medium/Gotham-Medium.woff2") format("woff2"), /* chrome、firefox */
+    url("fonts/gotham/medium/Gotham-Medium.woff") format("woff"), /* chrome、firefox */
+    url("fonts/gotham/medium/Gotham-Medium.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("fonts/gotham/medium/Gotham-Medium.svg#Gotham Medium") format("svg"); /* iOS 4.1- */
 }
 
 .mktoLabel {
@@ -79,12 +119,31 @@
 
 .mktoFieldDescriptor, .mktoFieldWrap, .mktoField {
     width: 100%!important;
-    -webkit-appearance: none;
+}
+
+select, input{ 
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+select {
+    background: url("./images/angle-arrow-down.svg");
+    background-repeat:  no-repeat!important;
+    background-size: 10px!important;
+    background-position: top 16px right 16px;
+    background-color:  #ffffff!important;
+    padding-right: 4px!important;
+}
+
+@media(max-width: 767px){
+    select {
+        background-position: top 13px right 11px;
+    }
 }
 
 select.mktoField, option {
     color: #5F5F5F;
-    -webkit-appearance: none;
 }
 
 option {
@@ -103,40 +162,23 @@ option {
         height: 1em;
         line-height: 1em;
         font-size: 10px!important;
-        -webkit-appearance: none;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .mktoForm input[type=url], .mktoForm input[type=text], .mktoForm input[type=date], .mktoForm input[type=tel], .mktoForm input[type=email], .mktoForm input[type=number] {
+    .mktoForm input[type=url], .mktoForm input[type=text], .mktoForm input[type=date], .mktoForm input[type=tel], .mktoForm input[type=email], .mktoForm input[type=number]{
         width: 100%;
         height: 1em;
         line-height: 1em;
         font-size: 10px!important;
         padding: 1.5em!important;
-        -webkit-appearance: none;
     }
 }
 
 .mktoForm input[type=url]:focus, .mktoForm input[type=text]:focus, .mktoForm input[type=date]:focus, .mktoForm input[type=tel]:focus, .mktoForm input[type=email]:focus, .mktoForm input[type=number]:focus, .mktoForm textarea.mktoField:focus, .mktoForm select.mktoField:focus {
-    color: -internal-light-dark(black, white)!important;
+    color: -internal-light-dark(black, white)!important;    
     outline-color: #000000!important;
     outline-style: auto;
     outline-width: 1px;
-    -webkit-appearance: none;
 }
 
-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-input.text,
-input[type="text"],
-input[type="button"],
-input[type="submit"],
-.input-checkbox {
--webkit-appearance: none;
-border-radius: 0;
-}

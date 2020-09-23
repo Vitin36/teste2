@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import PureModal from 'react-pure-modal'
-import background from './../assets/images/section1/background.svg'
+import background from 'assets/images/section1/background.svg'
 
 export const ThankYouSection = styled.div`
     width: 100vw;

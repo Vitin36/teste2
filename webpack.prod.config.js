@@ -11,7 +11,7 @@ module.exports = {
         ],
     },
 
-    mode: 'development',
+    mode: 'production',
 
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -46,6 +46,13 @@ module.exports = {
             },
             { test: /\.(js|jsx)?$/, loader: 'babel-loader', exclude: /node_modules/ },
         ],
+    },
+
+    optimization: {
+        minimize: true,
+        minimizer: [new UglifyJsPlugin({
+            include: /\.min\.js$/
+        })]
     },
 
     plugins: [

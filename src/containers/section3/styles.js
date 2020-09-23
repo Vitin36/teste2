@@ -6,13 +6,30 @@ export const Section = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
+    padding: 8em 5em;
+    background-color: #FFFFFF;
+    
+    @media(max-width: 991px){ 
+        padding: 6em 0.5em;
+        padding-bottom: 0;
+    }
+`
+
+export const ButtonSection = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     padding: 6em 0;
     background-color: #FFFFFF;
     
     @media(max-width: 991px){ 
-        padding: 6em 2em;
+        padding: 0 2em;
+        padding-bottom: 6em;
     }
 `
+
 
 export const Container = styled.div`
     ${({ marginTop }) => marginTop ? `margin-top: ${marginTop}px;` : ''}
@@ -23,7 +40,7 @@ export const Container = styled.div`
     justify-content: center;
     z-index: 10;
 
-    @media(max-width: 1366px){ 
+    @media(max-width: 1650px){ 
         width: 90%;
     }
 

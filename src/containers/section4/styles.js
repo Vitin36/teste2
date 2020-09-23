@@ -24,7 +24,7 @@ export const Container = styled.div `
     align-items: center;
     justify-content: center;
 
-    @media(max-width: 1366px){ 
+    @media(max-width: 1650px){ 
         width: 90%;
     }
 

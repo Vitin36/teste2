@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { Section, Container, MiniTitle, Title, Text, Homem } from './styles'
 import { FormattedMessage, useIntl } from 'react-intl'
-import Button from './../../components/button'
+import Button from 'components/button'
 
-import homem from './../../assets/images/section7/homem.svg'
-import homemSmall from './../../assets/images/section7/homem-small.svg'
-import { useWindowSize } from './../../hooks/useWindowSize'
+import homem from 'assets/images/section7/homem.svg'
+import homemSmall from 'assets/images/section7/homem-small.svg'
+import { useWindowSize } from 'hooks/useWindowSize'
 
 function Section7() {
     const intl = useIntl()

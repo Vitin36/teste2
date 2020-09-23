@@ -5,8 +5,6 @@ export const StyledLink = styled(Link)`
     width: 100%;
     max-width: 432px;
     z-index: 100;
-    appearance: none!important;
-    opacity: 1;
 `
 
 export const StyledButton = styled.button`
@@ -24,8 +22,6 @@ export const StyledButton = styled.button`
     padding: 0.8em 1em;
     transition: ease-in 300ms;
     z-index: 100;
-    appearance: none!important;
-    opacity: 1;
 
     & :hover{
         border: ${({ secondary }) => `1px solid ${secondary ? '#ffffff' : '#34B5D9'}`};
@@ -61,12 +57,11 @@ export const StyledButton = styled.button`
 
     @media(max-width: 767px){
     ${({fixed}) => `${fixed ? `
-            -webkit-appearance: none;
             display: block;
             visibility: visible;
             width: 100vw;
             position: fixed;
-            bottom: 0;
+            bottom: -2px;
     ` : ``}`}
     }
 `

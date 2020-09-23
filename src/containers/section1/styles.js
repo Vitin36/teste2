@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import background from './../../assets/images/section1/background.svg'
+import background from 'assets/images/section1/background.svg'
 import PureModal from 'react-pure-modal'
 
 export const Section = styled.div `
@@ -29,9 +29,10 @@ export const Container = styled.div `
     align-items: center;
     z-index: 10;
 
-    @media(max-width: 1366px){ 
+    @media(max-width: 1650px){ 
         width: 90%;
     }
+
 
     @media(max-width: 991px){ 
         width: 100%;

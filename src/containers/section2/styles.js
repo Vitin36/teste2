@@ -18,13 +18,13 @@ export const Section = styled.div `
 export const Container = styled.div `
     width: 70%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-self: center;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
-    @media(max-width: 1366px){ 
+    @media(max-width: 1650px){ 
         width: 90%;
     }
 
@@ -41,6 +41,7 @@ export const Message = styled.h1 `
     color: #000000;
     margin-bottom: 26px;
     z-index: 10;
+    max-width: 900px;
     & > span {
         color: #3E8DDD;
     }

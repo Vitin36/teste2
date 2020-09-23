@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { StyledButton, StyledLink } from './styles'
-import { useWindowSize } from './../../hooks/useWindowSize'
+import { useWindowSize } from 'hooks/useWindowSize'
 import { ModalContext } from './../../containers/context'
 
 function Button({ text, secondary = false, fixed = false }) {
@@ -20,7 +20,7 @@ function Button({ text, secondary = false, fixed = false }) {
     }
     else {
         return (
-            <StyledLink to="mktoForm_2583"
+            <StyledLink to="mktoForm_2828"
                 spy={true}
                 smooth={true}
                 hashSpy={true}

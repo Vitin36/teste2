@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import background from './../../assets/images/section6/background.png'
-import backgroundCortado from './../../assets/images/section6/background-cortado.png'
-import backgroundExtraSmall from './../../assets/images/section6/background-extra-small.png'
+import background from 'assets/images/section6/background.png'
+import backgroundCortado from 'assets/images/section6/background-cortado.png'
+import backgroundExtraSmall from 'assets/images/section6/background-extra-small.png'
 
 export const Section = styled.div`
     display: flex;
@@ -35,7 +35,7 @@ export const Container = styled.div`
     justify-content: flex-start;
     position: relative;
 
-    @media(max-width: 1366px){
+    @media(max-width: 1650px){
         width: ${({ width }) => `${width ? width : '90%'}`};
     }
 

@@ -7,7 +7,7 @@ module.exports = {
     entry: {
         app: [
             'regenerator-runtime/runtime',
-            './src/index.js',
+            './src/index.jsx',
         ],
     },
 

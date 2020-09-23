@@ -6,7 +6,7 @@ export const Section = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 8em 0;
+    padding: 8em 5em;
     background-color: #ffffff;
     position: relative;    
     
@@ -41,7 +41,7 @@ export const Container = styled.div`
     position: relative;
     z-index: 100;
 
-    @media(max-width: 1366px){ 
+    @media(max-width: 1650px){ 
         width: ${({ width }) => `${width ? width : '90%'}!important`};
     }
 
@@ -160,7 +160,7 @@ export const Divisor = styled.img`
     display: none;
     visibility: hidden;
 
-    @media(max-width: 1366px){
+    @media(max-width: 1500px){
         width: 100%;
         right: 60px;
     }

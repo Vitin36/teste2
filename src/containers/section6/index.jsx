@@ -1,7 +1,7 @@
 import React from 'react'
 import { Section, Container, Title, Text, Row, Column, EmptyColumn } from './styles'
 import { FormattedMessage, useIntl } from 'react-intl'
-import Button from './../../components/button'
+import Button from 'components/button'
 
 
 function Section6() {

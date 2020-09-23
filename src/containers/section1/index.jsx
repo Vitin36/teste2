@@ -11,12 +11,12 @@ import {
     SubTitle,
     Text,
 } from './styles'
-import { useWindowSize } from './../../hooks/useWindowSize'
+import { useWindowSize } from 'hooks/useWindowSize'
 import { FormattedMessage } from 'react-intl'
 import { ModalContext } from './../context'
 
-import lenovoMicrosoft from './../../assets/images/section1/lenovo-microsoft.svg'
-import thinkAgile from './../../assets/images/section1/think-agile.svg'
+import lenovoMicrosoft from 'assets/images/section1/lenovo-microsoft.svg'
+import thinkAgile from 'assets/images/section1/think-agile.svg'
 
 
 function Section1() {

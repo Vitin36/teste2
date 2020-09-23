@@ -49,6 +49,7 @@ export default {
         'button.suport': 'Quero esse suporte',
         'button.cotacao': 'Quero uma cotação',
         'thankyou.thanks': 'Obrigado!',
+        'button.send': 'Enviar',
         'thankyou.subtitle': 'Você está preste à revolucionar seu Data Center.',
         'thankyou.message': 'Em breve, um de nossos consultores entrará em contato.\nJuntos vamos encontrar as melhores soluções para seus dados de negócio.\n\nAté mais!',
     }
