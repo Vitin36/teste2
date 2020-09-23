@@ -1,0 +1,28 @@
+<svg id="Componente_12_1" data-name="Componente 12 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1330" height="619" viewBox="0 0 1330 619">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.117" x2="0.5" y2="0.95" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Componente_11_1" data-name="Componente 11 – 1" transform="translate(2.857)">
+    <path id="Caminho_252" data-name="Caminho 252" d="M-2058.143,3906.987h585.368s13.854,1.375,22.27-7.342,7.75-21.975,7.75-21.975V3360.254s-.483-13.7,6.456-20.259,21.3-5.989,21.3-5.989h626.223s13.227-1.5,21.388,7.919,8.1,18.54,8.1,18.54L-750,3829.518" transform="translate(2058.143 -3307)" fill="none" stroke="#4d8cca" stroke-width="10"/>
+    <g id="Elipse_2" data-name="Elipse 2" transform="translate(421.143 581)" fill="#fff" stroke="#4d8cca" stroke-width="10">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="14" fill="none"/>
+    </g>
+    <g id="Elipse_5" data-name="Elipse 5" transform="translate(1289.143 515)" fill="none" stroke="#4d8cca" stroke-width="10">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="14" fill="none"/>
+    </g>
+    <g id="Elipse_4" data-name="Elipse 4" transform="translate(359.143 588)" fill="#4d8cca" stroke="#4d8cca" stroke-width="10">
+      <circle cx="12" cy="12" r="12" stroke="none"/>
+      <circle cx="12" cy="12" r="7" fill="none"/>
+    </g>
+    <g id="Elipse_3" data-name="Elipse 3" transform="translate(1118.143)" fill="#fff" stroke="#4d8cca" stroke-width="10">
+      <circle cx="27" cy="27" r="27" stroke="none"/>
+      <circle cx="27" cy="27" r="22" fill="none"/>
+    </g>
+  </g>
+  <rect id="Retângulo_91" data-name="Retângulo 91" width="27" height="286" transform="translate(0 610) rotate(-90)" fill="url(#linear-gradient)"/>
+</svg>

@@ -6,7 +6,12 @@
     "cra-template": "1.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-intl": "^5.8.1",
+    "react-pure-modal": "^2.0.5",
+    "react-scroll": "^1.8.1",
+    "styled-components": "^5.2.0",
+    "typed.js": "^2.0.11"
   },
   "scripts": {
     "start": "react-scripts start",
