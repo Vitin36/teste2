@@ -20,49 +20,49 @@
 
 @font-face {
     font-family: gothamBold;
-    src: url("http://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.eot");
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.eot");
     /* IE9*/
-    src: url("http://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.woff2") format("woff2"), /* chrome、firefox */
-    url("http://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.woff") format("woff"), /* chrome、firefox */
-    url("http://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("http://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.svg#Gotham Bold") format("svg");
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.woff2") format("woff2"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Bold.svg#Gotham Bold") format("svg");
     /* iOS 4.1- */
 }
 
 @font-face {
     font-family: gothamBook;
-    src: url("http://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Book.eot");
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Book.eot");
     /* IE9*/
-    src: url("http://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Book.woff2") format("woff2"), /* chrome、firefox */
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Book.woff") format("woff"), /* chrome、firefox */
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Book.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Book.svg#Gotham Book") format("svg");
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Book.woff2") format("woff2"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Book.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Book.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Book.svg#Gotham Book") format("svg");
     /* iOS 4.1- */
 }
 
 @font-face {
     font-family: gothamLight;
-    src: url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Light.eot");
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Light.eot");
     /* IE9*/
-    src: url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Light.woff2") format("woff2"), /* chrome、firefox */
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Light.woff") format("woff"), /* chrome、firefox */
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Light.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Light.svg#Gotham Light") format("svg");
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Light.woff?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Light.woff2") format("woff2"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Light.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Light.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Light.svg#Gotham Light") format("svg");
     /* iOS 4.1- */
 }
 
 @font-face {
     font-family: gothamMedium;
-    src: url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Medium.eot");
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Medium.eot");
     /* IE9*/
-    src: url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Medium.woff2") format("woff2"), /* chrome、firefox */
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Medium.woff") format("woff"), /* chrome、firefox */
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Medium.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("http://pages.lenovo.com/rs/183-wct-620/images/Gotham-Medium.svg#Gotham Medium") format("svg");
+    src: url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Medium.woff2") format("woff2"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Medium.woff") format("woff"), /* chrome、firefox */
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Medium.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("https://pages.lenovo.com/rs/183-WCT-620/images/Gotham-Medium.svg#Gotham Medium") format("svg");
     /* iOS 4.1- */
 }
 
