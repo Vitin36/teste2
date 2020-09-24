@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 import PureModal from 'react-pure-modal'
-import background from 'assets/images/section1/background.svg'
+// import background from 'assets/images/section1/background.svg'
 
 export const ThankYouSection = styled.div`
     width: 100vw;
     height: 100vh;
-    background: url(${background});
+    background: url("https://pages.lenovo.com/rs/183-WCT-620/images/ThinkAgile_background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -13,8 +13,8 @@ import Section8 from 'containers/section8'
 import 'react-pure-modal/dist/react-pure-modal.min.css'
 import 'assets/style.css'
 
-import hexagonos from 'assets/images/hexagonos.svg'
-import predioHexagonos from 'assets/images/predio-hexagonos.svg'
+// import hexagonos from 'assets/images/hexagonos.svg'
+// import predioHexagonos from 'assets/images/predio-hexagonos.svg'
 
 import { ModalContext, FormContext } from './context'
 
@@ -78,13 +78,13 @@ function App() {
                             <Container>
                                 <Section3 />
                                 <Section4 />
-                                <PredioHexagonos src={predioHexagonos} alt="predioHexagonos" draggable="false" />
+                                <PredioHexagonos src="https://pages.lenovo.com/rs/183-WCT-620/images/predio-hexagonos.png" alt="predioHexagonos" draggable="false" />
                             </Container>
                             <Section5 />
                             <Section6 />
                             <Section7 />
                             <Section8 />
-                            <Hexagonos src={hexagonos} alt="hexagonos" draggable="false" />
+                            <Hexagonos src="https://pages.lenovo.com/rs/183-WCT-620/images/hexagonos.png" alt="hexagonos" draggable="false" />
                             <Button text={intl.formatMessage({ id: 'button.send' })} fixed />
                             <Modal isOpen={context} onClose={toggleModal} portal={true} >
                                 <div id="modal"></div>
@@ -112,7 +112,7 @@ function ThankYou() {
         <ThankYouSectionWrapper>
             <ThankYouSection>
                 <div>
-                    <HexagonosThankYou src={hexagonos} alt="hexagonos" />
+                <HexagonosThankYou src="https://pages.lenovo.com/rs/183-WCT-620/images/hexagonos.png" alt="hexagonos" />
                     <TitleThankYou>
                         <FormattedMessage id="thankyou.thanks" />
                     </TitleThankYou>

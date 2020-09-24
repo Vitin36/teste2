@@ -15,8 +15,8 @@ import { useWindowSize } from 'hooks/useWindowSize'
 import { FormattedMessage } from 'react-intl'
 import { ModalContext } from './../context'
 
-import lenovoMicrosoft from 'assets/images/section1/lenovo-microsoft.svg'
-import thinkAgile from 'assets/images/section1/think-agile.svg'
+// import lenovoMicrosoft from 'assets/images/section1/lenovo-microsoft.svg'
+// import thinkAgile from 'assets/images/section1/think-agile.svg'
 
 
 function Section1() {
@@ -30,10 +30,10 @@ function Section1() {
 
     return (
         <Section>
-            <LenovoMicrosoft src={lenovoMicrosoft} alt="Lenovo - Microsoft" draggable="false" />
+            <LenovoMicrosoft src="https://pages.lenovo.com/rs/183-WCT-620/images/lenovo-microsoft.svg" alt="Lenovo - Microsoft" draggable="false" />
             <Container>
                 <ContainerLeft>
-                    <ThinkAgile src={thinkAgile} alt="Think Agile" draggable="false" />
+                    <ThinkAgile src="https://pages.lenovo.com/rs/183-WCT-620/images/think-agile.svg" alt="Think Agile" draggable="false" />
                     <Title><FormattedMessage id="section1.title" /></Title>
                     <SubTitle><FormattedMessage id="section1.subtitle" /></SubTitle>
                     <Text>

@@ -3,12 +3,14 @@ import { useIntl } from 'react-intl'
 import { Section, Container, Row, MiniTitle, Title, Text, MiniText, Machine, Divisor, Icon, IconBox } from './styles'
 import Button from 'components/button'
 
-import machine from 'assets/images/section5/machine.svg'
-import machineSmall from 'assets/images/section5/machine-small.svg'
-import divisor from 'assets/images/section5/divisor.svg'
-import atendimento from 'assets/images/section5/atendimento.svg'
-import fone from 'assets/images/section5/fone.svg'
-import globo from 'assets/images/section5/globo.svg'
+const machineSmall = "http://pages.lenovo.com/rs/183-WCT-620/images/machine.png"
+const machine = "http://pages.lenovo.com/rs/183-WCT-620/images/machine-small.png"
+// import machine from 'assets/images/section5/machine.svg'
+// import machineSmall from 'assets/images/section5/machine-small.svg'
+// import divisor from 'assets/images/section5/divisor.svg'
+// import atendimento from 'assets/images/section5/atendimento.svg'
+// import fone from 'assets/images/section5/fone.svg'
+// import globo from 'assets/images/section5/globo.svg'
 import { useWindowSize } from 'hooks/useWindowSize'
 
 
@@ -35,7 +37,7 @@ function Section5() {
                         {intl.formatMessage({ id: 'section5.mini.title' })}
                     </MiniTitle>
                 </Row>
-                <Divisor src={divisor} alt="Divisor" />
+                <Divisor src="https://pages.lenovo.com/rs/183-WCT-620/images/divisor.svg" alt="Divisor" />
                 <Row alignItems="flex-start" justifyContent="flex-start">
                     <div>
                         <Title>
@@ -88,19 +90,19 @@ function Section5() {
                         <Container width="65%">
                             <Row justifyContent="space-around">
                                 <IconBox>
-                                    <Icon src={fone} alt="fone" />
+                                    <Icon src="https://pages.lenovo.com/rs/183-WCT-620/images/fone.svg" alt="fone" />
                                     <p>
                                         {intl.formatMessage({ id: 'section5.text.5' }, format)}
                                     </p>
                                 </IconBox>
                                 <IconBox border>
-                                    <Icon src={globo} alt="globo" />
+                                    <Icon src="https://pages.lenovo.com/rs/183-WCT-620/images/globo.svg" alt="globo" />
                                     <p>
                                         {intl.formatMessage({ id: 'section5.text.6' }, format)}
                                     </p>
                                 </IconBox>
                                 <IconBox>
-                                    <Icon src={atendimento} alt="atendimento" />
+                                    <Icon src="https://pages.lenovo.com/rs/183-WCT-620/images/atendimento.svg" alt="atendimento" />
                                     <p>
                                         {intl.formatMessage({ id: 'section5.text.7' }, format)}
                                     </p>
@@ -120,19 +122,19 @@ function Section5() {
                             </Container>
                             <Container alignItems="flex-start" justifyContent="flex-start">
                                 <IconBox>
-                                    <Icon src={fone} alt="fone" />
+                                    <Icon src="https://pages.lenovo.com/rs/183-WCT-620/images/fone.svg" alt="fone" />
                                     <p>
                                         {intl.formatMessage({ id: 'section5.text.5' }, format)}
                                     </p>
                                 </IconBox>
                                 <IconBox >
-                                    <Icon src={globo} alt="globo" />
+                                    <Icon src="https://pages.lenovo.com/rs/183-WCT-620/images/globo.svg" alt="globo" />
                                     <p>
                                         {intl.formatMessage({ id: 'section5.text.6' }, format)}
                                     </p>
                                 </IconBox>
                                 <IconBox>
-                                    <Icon src={atendimento} alt="atendimento" />
+                                    <Icon src="https://pages.lenovo.com/rs/183-WCT-620/images/machine.svg" alt="atendimento" />
                                     <p>
                                         {intl.formatMessage({ id: 'section5.text.7' }, format)}
                                     </p>

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import background from 'assets/images/section6/background.png'
-import backgroundCortado from 'assets/images/section6/background-cortado.png'
-import backgroundExtraSmall from 'assets/images/section6/background-extra-small.png'
+// import background from 'assets/images/section6/background.png'
+// import backgroundCortado from 'assets/images/section6/background-cortado.png'
+// import backgroundExtraSmall from 'assets/images/section6/background-extra-small.png'
 
 export const Section = styled.div`
     display: flex;
@@ -11,19 +11,19 @@ export const Section = styled.div`
     position: relative;
     padding: 5em;
     position: relative;
-    background-image: url(${background});
+    background-image: url("http://pages.lenovo.com/rs/183-WCT-620/images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 500px;
 
     @media(max-width: 1366px){
-        background-image: url(${backgroundCortado});
+        background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/background-cortado.png");
         min-height: auto;
     }
 
     @media(max-width: 991px){ 
         padding: 6em 2em;
-        background-image: url(${backgroundExtraSmall});
+        background-image: url("https://pages.lenovo.com/rs/183-WCT-620/images/background-extra-small.png");
     }
 `
 

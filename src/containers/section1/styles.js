@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import background from 'assets/images/section1/background.svg'
+// import background from 'assets/images/section1/background.svg'
 import PureModal from 'react-pure-modal'
 
 export const Section = styled.div `
@@ -7,7 +7,7 @@ export const Section = styled.div `
     display: flex;
     flex-direction: column;
     background-color: #000000;
-    background-image: url(${background});
+    background-image: url(https://pages.lenovo.com/rs/183-WCT-620/images/ThinkAgile_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 2em;

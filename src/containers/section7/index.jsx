@@ -3,8 +3,10 @@ import { Section, Container, MiniTitle, Title, Text, Homem } from './styles'
 import { FormattedMessage, useIntl } from 'react-intl'
 import Button from 'components/button'
 
-import homem from 'assets/images/section7/homem.svg'
-import homemSmall from 'assets/images/section7/homem-small.svg'
+// import homem from 'assets/images/section7/homem.svg'
+const homem = "http://pages.lenovo.com/rs/183-WCT-620/images/homem.png"
+const homemSmall = "http://pages.lenovo.com/rs/183-WCT-620/images/homem-small.png"
+// import homemSmall from 'assets/images/section7/homem-small.svg'
 import { useWindowSize } from 'hooks/useWindowSize'
 
 function Section7() {
